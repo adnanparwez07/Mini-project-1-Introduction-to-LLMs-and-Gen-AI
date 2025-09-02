@@ -67,11 +67,10 @@ The goal is to **build a predictive model** that can classify customer sentiment
 ---
 
 ## 📈 Project Workflow  
-```mermaid
 flowchart TD
     A[Raw Data] --> B[Data Preprocessing]
     B --> C[EDA & Visualization]
     C --> D[Feature Engineering]
     D --> E[Model Training]
     E --> F[Model Evaluation]
-    F --> G[Deployment (Future Scope)]
+    F --> G["Deployment - Future Scope"]
